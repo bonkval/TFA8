@@ -1,0 +1,1 @@
+<span {{ $attributes }}>POS LAB</span>

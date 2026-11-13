@@ -1,0 +1,19 @@
+﻿
+ GET|HEAD users .. users.index › UserController@index
+ ⇂ web
+ ⇂ auth
+ POST users .. users.store › UserController@store
+ ⇂ web
+ ⇂ auth
+ GET|HEAD users/create .. users.create › UserController@create
+ ⇂ web
+ ⇂ auth
+ PUT|PATCH users/{user} .. users.update › UserController@update
+ ⇂ web
+ ⇂ auth
+ GET|HEAD users/{user}/edit .. users.edit › UserController@edit
+ ⇂ web
+ ⇂ auth
+
+ Showing [5] routes
+

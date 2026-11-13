@@ -1,0 +1,35 @@
+{
+  "viewport": "1440 x 1000",
+  "theme": "light",
+  "checks": [
+    "Guest /customers → /login",
+    "Guest /users → /login",
+    "Registration → authenticated dashboard",
+    "Authenticated customers and users → HTTP 200",
+    "Logout → protected routes redirect again",
+    "Invalid login → validation error",
+    "Login → intended /customers",
+    "Authenticated /users reachable"
+  ],
+  "consoleErrors": [],
+  "screenshots": [
+    "home",
+    "about",
+    "customers-guest-login",
+    "users-guest-login",
+    "register",
+    "dashboard",
+    "customers",
+    "create-customer",
+    "edit-customer",
+    "users",
+    "create-user",
+    "edit-user",
+    "profile",
+    "login-validation",
+    "customers-after-login",
+    "users-after-login",
+    "customer-validation",
+    "forgot-password"
+  ]
+}

@@ -1,0 +1,19 @@
+﻿
+ GET|HEAD customers .. customers.index › CustomerController@index
+ ⇂ web
+ ⇂ auth
+ POST customers .. customers.store › CustomerController@store
+ ⇂ web
+ ⇂ auth
+ GET|HEAD customers/create .. customers.create › CustomerController@create
+ ⇂ web
+ ⇂ auth
+ PUT|PATCH customers/{customer} .. customers.update › CustomerController@update
+ ⇂ web
+ ⇂ auth
+ GET|HEAD customers/{customer}/edit .. customers.edit › CustomerController@edit
+ ⇂ web
+ ⇂ auth
+
+ Showing [5] routes
+
